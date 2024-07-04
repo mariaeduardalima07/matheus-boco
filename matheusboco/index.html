@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Documento</title>
+</head>
+<body>
+    
+    <div class="sidebar">
+
+        <a href="#">Trabalhos</a>
+
+        <div class="side-nav">
+            <div class="item active">
+                <i class='bx bx-search-alt' ></i>
+                <a href="#">Início</a>
+            </div>
+            <div class="item">
+                <i class='bx bx-message-square-dots'></i>
+                <a href="#">Notificações</a>
+            </div>
+            <div class="item">
+                <i class='bx bx-briefcase'></i>
+                <a href="#">Meus Apps</a>
+            </div>
+            <div class="item">
+                <i class='bx bx-bookmark-minus'></i>
+                <a href="#">Vagas Salvas</a>
+            </div>
+            <div class="item">
+                <i class='bx bx-cog'></i>
+                <a href="#">Configurações</a>
+            </div>
+        </div>
+
+        <div class="side-profile">
+            <div class="info">
+                <img src="assets/profile-1.png">
+                <a href="#">Alex.Talent</a>
+                <p>Designer Gráfico</p>
+            </div>
+            <div class="skills">
+                <h5>Habilidades e Expertise</h5>
+                <div class="skill-tags">
+                    <div class="item">
+                        <p>Designer Gráfico</p>
+                    </div>
+                    <div class="item">
+                        <p>Ilustrador</p>
+                    </div>
+                    <div class="item">
+                        <p>Photoshop</p>
+                    </div>
+                    <div class="item">
+                        <p>HTML/CSS</p>
+                    </div>
+                </div>
+            </div>
+            <button>Ver Perfil</button>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="nav">
+            <button id="menuToggle"><i class='bx bx-menu'></i></button>
+            <div class="search">
+                <i class='bx bx-search'></i>
+                <input type="text" placeholder="Buscar vagas ou empresas">
+            </div>
+            <div class="city">
+                <i class='bx bxs-location-plus'></i>
+                <input type="text" placeholder="Digite cidade, estado ou região">
+            </div>
+            <button>Buscar</button>
+            <i class='bx bx-bell'></i>
+            <div class="user-info">
+                <img src="assets/profile-1.png">
+                <div>
+                    <a href="#">Reza.UI <i class='bx bx-chevron-down'></i></a>
+                    <p>Reza@Test.com</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="content">
+                <div class="header">
+                    <h4>Oportunidades que correspondem às suas habilidades <span>300</span></h4>
+                    <p>Aqui estão vagas que correspondem ao seu conjunto de habilidades</p>
+                </div>
+
+                <div class="job-cards">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="job-info">
+                                <i class='bx bxl-apple' ></i>
+                                <div>
+                                    <h5>Apple <span>| Agora mesmo</span></h5>
+                                    <a href="#">Designer UI Júnior</a>
+                                    <p>São Francisco, EUA</p>
+                                </div>
+                            </div>
+                            <i class='bx bx-bookmark-plus' ></i>
+                        </div>
+                        <div class="card-tags">
+                            <a href="#">Remoto</a>
+                            <a href="#">Freelance</a>
+                        </div>
+                        <div class="card-desc">
+                            Estamos procurando um Designer UI Júnior com paixão por criar interfaces intuitivas. Junte-se à nossa equipe dinâmica na Apple e contribua para projetos inovadores de design.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="job-info">
+                                <i class='bx bxl-microsoft' ></i>
+                                <div>
+                                    <h5>Microsoft <span>| Agora mesmo</span></h5>
+                                    <a href="#">Engenheiro de Software Júnior</a>
+                                    <p>Seattle, EUA</p>
+                                </div>
+                            </div>
+                            <i class='bx bx-bookmark-plus' ></i>
+                        </div>
+                        <div class="card-tags">
+                            <a href="#">Período Integral</a>
+                            <a href="#">Presencial</a>
+                        </div>
+                        <div class="card-desc">
+                            A Microsoft está procurando um Engenheiro de Software Júnior para desenvolver e manter aplicativos de software. Se você tem interesse em codificação e resolução de problemas, aplique agora.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="job-info">
+                                <i class='bx bxl-google' ></i>
+                                <div>
+                                    <h5>Google  <span>| Hoje</span></h5>
+                                    <a href="#">Cientista de Dados Júnior</a>
+                                    <p>Mountain View, EUA</p>
+                                </div>
+                            </div>
+                            <i class='bx bx-bookmark-plus' ></i>
+                        </div>
+                        <div class="card-tags">
+                            <a href="#">Meio Período</a>
+                            <a href="#">Remoto</a>
+                        </div>
+                        <div class="card-desc">
+                            O Google está contratando um Cientista de Dados Júnior para analisar grandes conjuntos de dados e fornecer insights acionáveis. O candidato ideal deve ser proficiente em ferramentas e técnicas de análise de dados.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="job-info">
+                                <i class='bx bxl-facebook' ></i>
+                                <div>
+                                    <h5>Facebook  <span>| Esta semana</span></h5>
+                                    <a href="#">Gerente de Produto Júnior</a>
+                                    <p>Menlo Park, EUA</p>
+                                </div>
+                            </div>
+                            <i class='bx bx-bookmark-plus' ></i>
+                        </div>
+                        <div class="card-tags">
+                            <a href="#">Freelance</a>
+                            <a href="#">Presencial</a>
+                        </div>
+                        <div class="card-desc">
+                            Junte-se ao Facebook como Gerente de Produto Júnior. Estamos procurando alguém que possa ajudar no desenvolvimento e gestão de produtos, garantindo experiências de usuário de alta qualidade.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="job-info">
+                                <i class='bx bxl-amazon' ></i>
+                                <div>
+                                    <h5>Amazon <span>| Hoje</span></h5>
+                                    <a href="#">Engenheiro de Nuvem Júnior</a>
+                                    <p>Seattle, EUA</p>
+                                </div>
+                            </div>
+                            <i class='bx bx-bookmark-plus' ></i>
+                        </div>
+                        <div class="card-tags">
+                            <a href="#">Período Integral</a>
+                            <a href="#">Remoto</a>
+                        </div>
+                        <div class="card-desc">
+                            A Amazon está procurando um Engenheiro de Nuvem Júnior para se juntar à nossa equipe AWS. Você será responsável por apoiar a infraestrutura e serviços de nuvem, garantindo desempenho e segurança ideais.
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="job-info">
+                                <i class='bx bxs-car' ></i>
+                                <div>
+                                    <h5>Tesla <span>| Hoje</span></h5>
+                                    <a href="#">Engenheiro de Robótica Júnior</a>
+                                    <p>Palo Alto, EUA</p>
+                                </div>
+                            </div>
+                            <i class='bx bx-bookmark-plus' ></i>
+                        </div>
+                        <div class="card-tags">
+                            <a href="#">Estágio</a>
+                            <a href="#">Presencial</a>
+                        </div>
+                        <div class="card-desc">
+                            A Tesla está buscando um Engenheiro de Robótica Júnior para trabalhar no desenvolvimento e manutenção de sistemas robóticos. Se você é apaixonado por robótica e automação, junte-se à nossa equipe inovadora.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="filters">
+                <div class="header">
+                    <h3>Filtro de Vagas</h3>
+                    <a href="#">Limpar tudo</a>
+                </div>
+                <div class="item">
+                    <div class="title">
+                        <h4>Tempo</h4>
+                        <a href="#">Limpar</a>
+                    </div>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" name="today">
+                            <label for="today">Agora mesmo</label>
+                        </div>
+                        <p>50 Vagas</p>
+                    </div>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" name="week">
+                            <label for="week">Semanal</label>
+                        </div>
+                        <p>150 Vagas</p>
+                    </div>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" name="month">
+                            <label for="month">Mensal</label>
+                        </div>
+                        <p>200 Vagas</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="title">
+                        <h4>Experiência</h4>
+                        <a href="#">Limpar</a>
+                    </div>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" name="trainer">
+                            <label for="trainer">Iniciante</label>
+                        </div>
+                        <p>50 Vagas</p>
+                    </div>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" name="junior">
+                            <label for="junior">Júnior</label>
+                        </div>
+                        <p>100 Vagas</p>
+                    </div>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" name="middle">
+                            <label for="middle">Pleno</label>
+                        </div>
+                        <p>100 Vagas</p>
+                    </div>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" name="senior">
+                            <label for="senior">Sênior</label>
+                        </div>
+                        <p>50 Vagas</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="title">
+                        <h4>Tipo de Vaga</h4>
+                        <a href="#">Limpar</a>
+                    </div>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" name="full">
+                            <label for="full">Período Integral</label>
+                        </div>
+                        <p>100 Vagas</p>
+                    </div>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" name="part">
+                            <label for="part">Meio Período</label>
+                        </div>
+                        <p>50 Vagas</p>
+                    </div>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" name="freelance">
+                            <label for="freelance">Contrato</label>
+                        </div>
+                        <p>50 Vagas</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="title">
+                        <h4>Localização da Vaga</h4>
+                        <a href="#">Limpar</a>
+                    </div>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" name="site">
+                            <label for="site">Presencial</label>
+                        </div>
+                        <p>100 Vagas</p>
+                    </div>
+                    <div class="location">
+                        <i class='bx bxs-location-plus'></i>
+                        <input type="text" placeholder="Buscar localização">
+                    </div>
+                    <div class="checkbox">
+                        <div>
+                            <input type="checkbox" name="remote">
+                            <label for="remote">Remoto</label>
+                        </div>
+                        <p>50 Vagas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
